@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="profile.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <a href="#">One</a>
+            <a href="#">Two</a>
+            <a href="#">Three</a>
+            <a href="#">Four</a>
+        </nav>
+    </header>
+
+    <main class="body">
+
+        <!-- Paragraph Cards -->
+        <div class="cards">
+            <p class="para1" id="paraid">J lekheni hunxa</p>
+            <p>J lekheni hunxa</p>
+            <p>J lekheni hunxa</p>
+        </div>
+
+        <!-- List -->
+        <div class="list">
+            <ul>
+                <li>List 1</li>
+                <li>List 2</li>
+                <li>List 3</li>
+            </ul>
+            <ol>
+
+            </ol>
+        </div>
+
+        <div class="form-container">
+            <form action="/submit" method="POST">
+
+                <label for="name">Full Name</label>
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    required
+                >
+
+                <label for="email">Email</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="example@gmail.com"
+                    required
+                >
+
+                <label for="role">Role</label>
+                <select id="role" name="role">
+                    <option value="student">Student</option>
+                    <option value="teacher">Teacher</option>
+                </select>
+
+                <button type="submit">Submit</button>
+
+            </form>
+        </div>
+
+    </main>
+
+</body>
+
+</html>
