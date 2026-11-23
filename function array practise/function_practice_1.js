@@ -13,7 +13,7 @@ const calculateBill = (units) => {
     }
 
     return charge + serviceFee;
-};
+  };
 
 const displayBill = (name, units, callback) => {
     const bill = callback(units);
